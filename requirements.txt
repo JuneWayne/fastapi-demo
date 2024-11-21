@@ -1,6 +1,7 @@
 mysql-connector-python
 uvicorn
 fastapi[standard]
+<<<<<<< HEAD
 typing
 pydantic
 boto3
@@ -9,3 +10,12 @@ chalice
 pymongo
 dnspython
 mysqlclient
+=======
+mysql-connector-python
+
+# typing
+# pydantic
+# pymongo
+# dnspython
+# mysqlclient
+>>>>>>> faaf7b6123dda43b76098885671bb7a833f95988
