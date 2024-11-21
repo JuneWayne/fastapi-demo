@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cd app
-uvicorn main:app --reload --log-level debug
+uvicorn app.main:app --reload --port 8001
+
