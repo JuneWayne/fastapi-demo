@@ -68,8 +68,8 @@ def s3_handler(event):
     keyhead = event.key
     identifier = keyhead.split('.')
     ID = identifier[0]
-    MP3 = baseurl + ID + '/' + '.mp3'
-    IMG = baseurl + ID + '/' + '.jpg'
+    MP3 = baseurl + '/' + ID + '.mp3'
+    IMG = baseurl + '/' + ID + '.jpg'
 
     app.log.debug("Received new song: %s, key: %s", event.bucket, event.key)
 
